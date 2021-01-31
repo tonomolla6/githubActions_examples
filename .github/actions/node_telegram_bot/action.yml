@@ -1,0 +1,17 @@
+name: "telegram_bot"
+description: "telegram_message"
+
+inputs:
+  token_bot:
+    description: "telegram_token"
+    required: true
+  id_chat:
+    description: "telegram_id"
+    required: true
+  name:
+    description: "name"
+    required: true
+
+outputs:
+  message:
+    description: "response_message"
