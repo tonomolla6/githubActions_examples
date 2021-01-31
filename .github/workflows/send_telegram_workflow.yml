@@ -11,7 +11,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Run action
-        uses: ./.github/actions/send_telegram_msg
+        uses: ./.github/actions/node_telegram_bot
         with:
           name: "Tono"
           id_chat: ${{ secrets.TELEGRAM_ID }}
